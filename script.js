@@ -41,7 +41,7 @@ const checkWin = ()=>{
 
 }
 
-// Game Logic
+// Game Logic --> gameOver, gameWin
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector('.boxtext');
